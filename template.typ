@@ -5,7 +5,7 @@
 #let serifzh = "Source Han Serif SC"
 #let emj = "Segoe UI Emoji"
 
-#let info = author => align(center)[
+#let info = author => align(left)[
   #author.email \
   #author.phone \
   #author.home · #author.github · #author.linkin
@@ -36,7 +36,7 @@
   show math.equation: set text(weight: 400)
 
   // Title row.
-  align(center)[
+  align(left)[
     #block(
       text(
         font: titlefont,
@@ -45,19 +45,18 @@
         smallcaps(title)
       )
     )
+    #place(right+top,image("portrait.jpg", width: 1in))
+    #pad(
+      top: 0.5em,
+      bottom: 0.5em,
+      x: 2em,
+      info(author)
+    )
+    // #align(right)[
+    //   #image("portrait.jpg", width: 1in)
+    // ]
   ]
-
-  // Author information.
-  pad(
-    top: 0.5em,
-    bottom: 0.5em,
-    x: 2em,
-    info(author)
-  )
-
-  // Main body.
   set par(justify: true)
-
   body
 }
 
