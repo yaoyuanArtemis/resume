@@ -55,6 +55,8 @@
     align(left)[
       *Anhui University （211） the gifted class of computer science* \
       - GPA:3.30/4
+      - Languages: Chinese Grade A,English IELTS 6.5
+      - Programming Capabilities:CCF-CSP 180 
       - Relevant Courses:Principles of Computer Organization,Data Structures,Operating Systems,Computer Networks,Database Principles,Object-Oriented Programming,Digital Image Processing,Big Data Technology,Machine Learning,Pattern Recognition,Optimization Methods,Mathematical Modeling (Advanced Class),Artificial Intelligence,Principles of Compilers,Writing International Academic Papers (Graduate Course)
       - Honors and Awards:Second-Class Scholarship for Academic Excellence,Anhui Province Big Data Competition
     ],
@@ -69,6 +71,8 @@
     align(left)[
       *安徽大学 （211） 计算机科学与技术英才班* \
       - GPA:3.30/4
+      - 语言:中文二级甲等、英文IELTS6.5
+      - 计算机编程：CCF-CSP 180
       - 相关课程：计算机组成原理，数据结构，操作系统，计算机网络，数据库原理，面向对象程序设计，数字图像处理，大数据技术，机器学习，模式识别，最优化方法，数学建模(提高班)，人工智能，编译原理，国际学术论文撰写(研究生课程)
       - 荣誉奖项：学习优秀二等奖学金、安徽省大数据竞赛
     ],
