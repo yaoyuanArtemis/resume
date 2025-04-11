@@ -14,13 +14,14 @@
 
 #eduzh
 
-#section[ #titleemj("seedling.svg") #techtitlezh ]
-
-#techzh
 
 #section[ #titleemj("telescope.svg") #projecttitlezh ]
 
 #projectexperiencezh
+
+#section[ #titleemj("seedling.svg") #techtitlezh ]
+
+#techzh
 
 #section[ #titleemj("darts.svg") #activitytitlezh ]
 

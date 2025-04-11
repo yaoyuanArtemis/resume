@@ -12,8 +12,8 @@
 ]
 
 // You don't really need to change the content below
-#let sans = (sansen, sanszh, emj)
-#let serif = (serifen, serifzh, emj)
+#let sans = (sansen,serifen,serifzh, sanszh, emj)
+#let serif = (serifen, serifzh, sanszh, emj)
 #let titlefont = (serifen, sanszh, emj)
 
 #let project(title: "", author: (
@@ -31,7 +31,6 @@
   )
   set text(
     font: serif,
-    lang: "en"
   )
   show math.equation: set text(weight: 400)
 

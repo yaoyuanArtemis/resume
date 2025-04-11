@@ -19,6 +19,10 @@
    - [Source Han Serif](https://source.typekit.com/source-han-serif/cn/)
 3. 根据需要修改 `.typ` 文件. 你可能需要了解 typst 的一些基本语法。
 
+```bash
+   typst compile cv_1-zh.typ
+```
+
 ## 此外
 
 Typst 目前在 Emoji 输出上有一些 [bugs](https://github.com/typst/typst/issues/144)，所以暂时用 SVG 替代，你可以在 [twemoji utils](https://twemoji.godi.se/) 找到更多。
