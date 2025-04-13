@@ -31,4 +31,4 @@ Typst 目前在 Emoji 输出上有一些 [bugs](https://github.com/typst/typst/i
 
 ## License
 
-Licensed under [WTFPL](http://www.wtfpl.net/).
+Licensed under [WTFPL](http://www.wtfpl.net/)

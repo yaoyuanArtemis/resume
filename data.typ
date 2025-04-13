@@ -102,26 +102,23 @@
 ]
 #let techzh = [
   - *编程语言*: 
-    - 语言 Python、TypeScript、JavaScript熟悉,大学主力语言C++,Java、Matlab、Html、Latex、Typst、Rust学习并使用过
+    - 语言Python、TypeScript、JavaScript熟悉,大学主力语言C++,Java、Matlab、Html、Latex、Typst、Rust学习并使用过
     - 熟悉HTML5、CSS、 JavaScript、TypeScript以及React框架,并在实际工作中经常使用
     - 熟悉Echarts、AntDesign等组件库,使用过飞搭等低代码平台
     - 熟悉Node服务、云服务开发运维、工程化建设,熟悉MidWaysJS、NestJs框架
-    - 熟悉Linux操作系统,Git、打包、CICD等流程
-    - 熟悉Weex、ReactNative、Taro
+    - 了解Linux操作系统,Git、打包、CICD等流程
+    - 了解Weex、ReactNative、Taro
     - 了解Stream机制,使用js写过文件处理提效
-    - 会使用SpringBoot、Myabtis、Restful等Java技术栈,在公司用作接口开发技术
+    - 了解SpringBoot、Myabtis、Restful等Java技术栈,在公司用作接口开发技术
   - *工具*:
-    - 会使用Scrapy框架,使用过Django框架开发游戏对战系统
     - 熟悉前端工程化,Serverless、Sass、Babel、Webpack、Vite、Npm、Grunt等有学习使用
     - 熟悉阿里Clam工程体系、Def api、Mtop调用、函数监控Alinode、网关监控Sunfire、阿里EagleEye以及全链路工程体系排查
-    - 会使用canvas2D、WebGL、SVG等高级特性
-    - 会使用 MySql、SqlSever等数据库以及TypeOrm等ORM框架
-    - 学习《机器学习》、《模式识别》,对机器学习相关算法较为熟悉
-    - 配置过Apache、MySql等集群搭建
-    - 使用分布式爬虫,BeautifulSoup、Scrapy、Re做爬取技术
-    // #text(" 🚀🔥🎉",font: ("Apple Color Emoji"))
-    - 使用低代码飞搭开发页面🚀🔥🎉
-    
+    - 熟悉MySql、SqlSever等数据库以及TypeOrm等ORM框架
+    - 熟悉低代码开发页面🚀🔥🎉
+    - 了解Scrapy框架,使用过Django框架开发游戏对战系统
+    - 了解canvas2D、WebGL、SVG等高级特性
+    - 了解《机器学习》、《模式识别》,对机器学习相关算法比较熟悉
+    - 了解分布式爬虫BeautifulSoup、Scrapy、Re做接口爬取
 ]
 
 #let projecttitle = [ Project Experience ]
@@ -179,11 +176,13 @@
     - 针对航司政策解析excel投产,累计至2月,航司覆盖率已达10个,自动化率达到75%
     - 政策文件类型支持word2007、word2003、excel2007、excel2003
     - 通过建设航司政策文件自动解析能力,提高运营投放工作效率,运营解析复杂政策文件的工作时间由一天缩短至2小时内
-  - 机票运营中后台
-    - 技术栈为前后端分离UmiJs,涉及AoneFlow敏捷开发,buc权限接入、页面开发
+  - 开发机票运营中后台
+    - 技术栈为前后端分离UmiJs,涉及AoneFlow敏捷开发,buc权限接入,页面开发
     - 部分页面使用低代码平台开发
   - 开发react生成页面器
-    - 针对中后台中存在大量布局页面，开发了页面生成器脚本，可以快速创建项目中的一些页面，减少重复开发时间
+    - 针对机票运营中后台中存在大量布局页面，开发了页面生成器脚本，可以快速创建项目中的一些页面，减少重复开发时间
+  - 开发性能测试工具
+    - 针对运营中后台项目,使用puppeteer开发了性能测试脚本,针对具体操作链路可以快速获取页面性能数据
   ===========================
   ===========================
 

@@ -44,7 +44,7 @@
         smallcaps(title)
       )
     )
-    #place(right+top,image("portrait.jpg", width: 1in))
+    #place(right+top,image("me.jpg", width: 1in))
     #pad(
       top: 0.5em,
       bottom: 0.5em,
