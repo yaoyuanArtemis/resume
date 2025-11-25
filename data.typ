@@ -7,7 +7,7 @@
 ]
 #let phone = [
   #icon("phone.svg")
-  (+86) 18520170194
+  (+86) 18520170194 / (+852)56174084
 ]
 #let home = [
   #icon("home.svg")
@@ -21,6 +21,10 @@
   #icon("linkedin.svg")
   #link("https://www.linkedin.com/in/%E5%B3%B0-%E5%88%98-2a7a8b2b8/")[ Liu Feng ]
 ]
+#let vercel = [
+  #icon("vercel.svg")
+  #link("https://learning-nextjs-iota-flax.vercel.app")[ vercel ]
+]
 
 #let author = (
   name: name,
@@ -29,6 +33,7 @@
   home: home,
   github: github,
   linkin: linkin,
+  vercel:vercel
 )
 #let authorzh = (
   name: namezh,
@@ -37,15 +42,16 @@
   home: home,
   github: github,
   linkin: linkin,
+  vercel:vercel
 )
 
 #let selftitle = [ Self Introduction ]
 #let selftitlezh = [ 自我总结 ]
 #let self = [
-  I am passionate about pursuing technological advancements and have an unrelenting pursuit of knowledge, particularly in the field of computer science. Additionally, I enjoy meeting interesting people and experiencing diverse aspects of society. Whether it's the culture and phenomena in China or around the world, I am full of curiosity and eager to explore.
+  I am passionate about pursuing technological advancements and have an unrelenting pursuit of knowledge, particularly in the field of computer science. Additionally, I enjoy meeting interesting people and experiencing diverse aspects of society. Whether it's the culture and phenomena in China or around the world, I am full of curiosity and eager to explore.I used to work on full-stack development with Node.js, but with the rise of the AI wave, I started learning LLM-related technologies on my own and plan to shift my career toward AI.
 ]
 #let selfzh = [
-  我热衷于追求技术进步,对知识有着不懈的追求,尤其是在计算机领域。同时,我也乐于在社会中结识有趣的人和事,深入了解社会的各个方面。无论是中国还是世界各地的文化和现象,我都充满好奇并渴望探索。
+  我热衷于追求技术进步,对知识有着不懈的追求,尤其是在计算机领域。同时,我也乐于在社会中结识有趣的人和事,深入了解社会的各个方面。无论是中国还是世界各地的文化和现象,我都充满好奇并渴望探索。之前做Node全栈技术开发,面对AI浪潮来袭,自学了LLM相关技术,打算向AI方向靠拢.
 ]
 
 #let edutitle = [ Education ]
@@ -64,6 +70,17 @@
       Hefei, China \
       2017.9 - 2021.6
     ]
+  ),
+  #datedsubsection(
+    align(left)[
+      *Hongkong University （QS 11)）        Computer Sciencef and technology* \
+      - Course:《High-performance computer architecture》,《Neural networks, fuzzy systems and genetic algorithms》,《Computer programming for product development and applications》
+      - Dissertation: Large language model based multi-agent materials scientist for advanced materials design
+    ],
+    align(right)[
+      Hongkong SAR \
+      2025.9 - 2026.9
+    ]
   )
 ]
 #let eduzh = [
@@ -71,14 +88,25 @@
     align(left)[
       *安徽大学 （211） 计算机科学与技术英才班* \
       - GPA:3.30/4
-      - 语言:中文二级甲等、英语四级、英语六级、雅思ielts6.5
+      - 语言:中文二级甲等、英语六级、雅思IELTS6.5
       - 计算机编程:CCF-CSP 180
-      - 相关课程:计算机组成原理,数据结构,操作系统,计算机网络,数据库原理,面向对象程序设计,数字图像处理,大数据技术,机器学习,模式识别,最优化方法,数学建模(提高班),人工智能,编译原理,国际学术论文撰写(研究生课程)
+      - 相关课程:计算机组成原理,数据结构,操作系统,计算机网络,数字图像处理,计算机体系结构,大数据技术,模式识别,最优化方法,数学建模(提高班),编译原理,国际学术论文撰写(研究生课程)
       - 荣誉奖项:学习优秀二等奖学金、安徽省大数据竞赛
     ],
     align(right)[
       合肥·中国 \
       2017.9 - 2021.6
+    ]
+  )
+  #datedsubsection(
+    align(left)[
+      *香港大学 （QS 11)）        计算机科学* \
+      - 相关课程:《High-performance computer architecture》,《Neural networks, fuzzy systems and genetic algorithms》,《Computer programming for product development and applications》
+      - Dissertation: Large language model based multi-agent materials scientist for advanced materials design
+    ],
+    align(right)[
+      香港·中国 \
+      2025.9 - 2026.9
     ]
   )
 ]
@@ -94,31 +122,31 @@
     - Used Spring Boot, MyBatis, and Restful technologies for API development in a company context.
   - *Key words*: Node.js TypeScript Nest.js HTML5 CSS
   - *Tools*: 
-    - Proficient in using the Scrapy framework and have developed a gaming combat system using the Django framework.
-    - Experienced with databases such as MySQL and SQL Server.
-    - Studied "Machine Learning" and "Pattern Recognition," and am familiar with related algorithms.
-    - Configured clusters for Apache and MySQL.
-    - Utilized distributed web crawlers and scraping technologies such as BeautifulSoup, Scrapy, and regular expressions (Re).
+    - Familiar with Transformer and Diffusion technologies, VAE, DDPM, LoRA, KV Cache, and various attention mechanisms; also knowledgeable about the LangChain, Hugging Face, and LLaMA-Factory ecosystems.
+    - Experienced in front-end engineering, including Serverless, Sass, Babel, Webpack, Vite, Npm, Grunt.
+    - Familiar with browser rendering process and V8
+    - Experienced with MySQL, SQL Server databases, and ORM frameworks such as TypeOrm.
+    - Familiar with RestApi, GraphQL, gRPC request libraries.
+    - Understanding of Machine Learning﻿, Pattern Recognition﻿, and High Performance Computer Architecture﻿; relatively familiar with deep learning and genetic algorithms.
 ]
 #let techzh = [
   - *编程语言*: 
-    - 语言Python、TypeScript、JavaScript熟悉,大学主力语言C++,Java、Matlab、Html、Latex、Typst、Rust学习并使用过
-    - 熟悉HTML5、CSS、 JavaScript、TypeScript以及React框架,并在实际工作中经常使用
-    - 熟悉Echarts、AntDesign等组件库,使用过飞搭等低代码平台
-    - 熟悉Node服务、云服务开发运维、工程化建设,熟悉MidWaysJS、NestJs框架
-    - 了解Linux操作系统,Git、打包、CICD等流程
-    - 了解Weex、ReactNative、Taro
-    - 了解Stream机制,使用js写过文件处理提效
+    - 语言Python、TypeScript、JavaScript较为熟悉,C++,Java、Matlab、Html、Latex、Typst、Rust学习并使用过
+    - 熟悉TypeScript、React、Umijs、Nextjs企业级框架,以及SSG、SSR、CSR等渲染方式
+    - 熟悉Echarts、AntDesign等组件库, tinymce富文本编辑器的二次开发,使用过低代码平台做业务开发
+    - 了解Linux、Nginx、Vercel、Docker、Git、CICD等流程
+    - 了解一码多端Taro、Weex、ReactNative
     - 了解SpringBoot、Myabtis、Restful等Java技术栈,在公司用作接口开发技术
   - *工具*:
-    - 熟悉前端工程化,Serverless、Sass、Babel、Webpack、Vite、Npm、Grunt等有学习使用
-    - 熟悉阿里Clam工程体系、Def api、Mtop调用、函数监控Alinode、网关监控Sunfire、阿里EagleEye以及全链路工程体系排查
+    - 了解Transformer和Diffusion技术, VAE,DDPM,LoRA,KVCache,知道多种注意力机制;了解Langchain,Huggingface,Llamafactory生态
+    - 熟悉前端工程化、Serverless、Sass、Babel、Webpack、Vite、Npm、Grunt等有学习使用
+    - 熟悉阿里Clam工程体系、Def api、函数监控Ali Node、网关监控Sunfire、阿里EagleEye以及全链路工程体系排查
+    - 熟悉Node服务、BFF开发运维、前端工程化建设、服务监控、性能调优、问题诊断, 熟悉MidWaysJS、NestJs框架
+    - 熟悉浏览器渲染进程以及V8线程
     - 熟悉MySql、SqlSever等数据库以及TypeOrm等ORM框架
-    - 熟悉低代码开发页面🚀🔥🎉
-    - 了解Scrapy框架,使用过Django框架开发游戏对战系统
-    - 了解canvas2D、WebGL、SVG等高级特性
-    - 了解《机器学习》、《模式识别》,对机器学习相关算法比较熟悉
-    - 了解分布式爬虫BeautifulSoup、Scrapy、Re做接口爬取
+    - 熟悉RestApi、GraphQL、gRPC等请求库
+    - 了解Scrapy框架, 使用过Django框架开发游戏对战系统
+    - 了解《机器学习》、《模式识别》、《高性能计算机体系结构》,对深度学习以及遗传相关算法比较熟悉
 ]
 
 #let projecttitle = [ Project Experience ]
@@ -134,7 +162,9 @@
       2023.9 - 2024.5
     ]
   )
-
+  - LLM Fundamentals
+    - Familiar with Transformer and Diffusion technologies; experienced in model fine-tuning, LoRA, KV cache, VAE, and DDPM; knowledgeable about various attention mechanisms, as well as Hugging Face and LLaMA-Factory.
+    - Applied LangChain for RAG integration and developed data analysis agents with LangChain.
   - Development of the Backend System "Jellyfish" for Risk Control
     - Included API calls for data and permission interfaces, and integration of event tracking.
   - Independently developed a policy document parsing tool.
@@ -168,19 +198,23 @@
       #emph(text("前端开发工程师"))
     ]
   )
-
+  - 大模型LLM基础
+    - 了解Transformer和Diffusion技术,做过模型微调、LoRA、KV cache、VAE、DDPM,知道多种注意力机制;
+    - 了解HuggingFace和Llamafactory生态
+    - 使用Langchain接入RAG,以及Langchain做数据分析Agent
   - 开发风控中后台系统“水母Jellyfish”开发
     - 使用MidwayJS+Serverless搭建项目,系统作为IP反爬系统涉及规则接入、规则部署、异常监测和风控策略,项目包括了数据展示、报警接入以及埋点接入
   - 开发政策文件解析工具
-    - 使用react+dom操作
-    - 针对航司政策解析excel投产,累计至2月,航司覆盖率已达10个,自动化率达到75%
-    - 政策文件类型支持word2007、word2003、excel2007、excel2003
+    - 使用React+Dom操作
+    - 针对航司政策解析Excel投产,累计至2月,航司覆盖率已达10个,自动化率达到75%
+    - 政策文件类型支持Word2007、Word2003、Excel2007、Excel2003
     - 通过建设航司政策文件自动解析能力,提高运营投放工作效率,运营解析复杂政策文件的工作时间由一天缩短至2小时内
+    - 自动化之外添加了手动划取功能，提升工具健壮性
   - 开发机票运营中后台
     - 技术栈为前后端分离UmiJs,涉及AoneFlow敏捷开发,buc权限接入,页面开发
     - 部分页面使用低代码平台开发
   - 开发react生成页面器
-    - 针对机票运营中后台中存在大量布局页面，开发了页面生成器脚本，可以快速创建项目中的一些页面，减少重复开发时间
+    - 针对机票运营中后台中存在大量布局页面，开发了页面生成器脚本，在运营中后台项目中提升开发效率50%，减少重复开发时间
   - 开发性能测试工具
     - 针对运营中后台项目,使用puppeteer开发了性能测试脚本,针对具体操作链路可以快速获取页面性能数据
   ===========================
@@ -245,7 +279,9 @@
   #datedsubsection(
     align(left)[
       *Attribute-Based Network Community Detection* \
-      Published Academic Papers During Undergraduate Studies: A Reduced Mixed Representation Based Multi-Objective Evolutionary Algorithm for Large-Scale Overlapping Community Detection DOI: 10.1109/CEC45853.2021.9504894.
+      Published Academic Papers During Undergraduate Studies: 
+      A Reduced Mixed Representation Based Multi-Objective Evolutionary Algorithm for Large-Scale Overlapping Community Detection DOI: 10.1109/CEC45853.2021.9504894.
+      
       Achievement of the Key Laboratory of Computational Intelligence and Information Processing, Ministry of Education, Anhui University
     ],
     align(right)[

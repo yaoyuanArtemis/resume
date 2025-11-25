@@ -10,8 +10,9 @@ You can see the online demo [here](https://typst.app/project/rbxGsQC-tEkDq0mnNIu
 1. Read [typst](https://typst.app/docs/) documentation to know about Typst.
 2. Modify these files to build your personal resume and you can edit any code to reach what you want if you have capability.
 3. Modify `.typ` files to fit your needs. You may need to learn some basic typst syntax.
+4. Using the terminal command `typst compile cv_1-zh.typ` to compile the target files.
 
-## By the waygit 
+## By the way git 
 
 Typst currently has some [bugs](https://github.com/typst/typst/issues/144) in the emoji output, so for the time being SVG images are being used instead, which you can find at [twemoji utils](https://twemoji.godi.se/).
 
