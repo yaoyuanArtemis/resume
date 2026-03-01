@@ -51,7 +51,7 @@
   I am passionate about pursuing technological advancements and have an unrelenting pursuit of knowledge, particularly in the field of computer science. Additionally, I enjoy meeting interesting people and experiencing diverse aspects of society. Whether it's the culture and phenomena in China or around the world, I am full of curiosity and eager to explore.I used to work on full-stack development with Node.js, but with the rise of the AI wave, I started learning LLM-related technologies on my own and plan to shift my career toward AI.
 ]
 #let selfzh = [
-  我热衷于追求技术进步,对知识有着不懈的追求,尤其是在计算机领域。同时,我也乐于在社会中结识有趣的人和事,深入了解社会的各个方面。无论是中国还是世界各地的文化和现象,我都充满好奇并渴望探索。之前做Node全栈技术开发,面对AI浪潮来袭,自学了LLM相关技术,打算向AI方向靠拢.
+  我热衷于追求技术进步,对知识有着不懈的追求,尤其是在计算机领域。同时,我也乐于在社会中结识有趣的人和事,深入了解社会的各个方面。无论是中国还是世界各地的文化和现象,我都充满好奇并渴望探索。
 ]
 
 #let edutitle = [ Education ]
@@ -61,7 +61,7 @@
     align(left)[
       *Anhui University （211） the gifted class of computer science* \
       - GPA:3.30/4
-      - Languages: Chinese Grade A,English IELTS 6.5
+      - Languages: Chinese Grade A,English IELTS 6
       - Programming Capabilities:CCF-CSP 180 
       - Relevant Courses:Principles of Computer Organization,Data Structures,Operating Systems,Computer Networks,Database Principles,Object-Oriented Programming,Digital Image Processing,Big Data Technology,Machine Learning,Pattern Recognition,Optimization Methods,Mathematical Modeling (Advanced Class),Artificial Intelligence,Principles of Compilers,Writing International Academic Papers (Graduate Course)
       - Honors and Awards:Second-Class Scholarship for Academic Excellence,Anhui Province Big Data Competition
@@ -74,7 +74,7 @@
   #datedsubsection(
     align(left)[
       *Hongkong University （QS 11)）        Computer Sciencef and technology* \
-      - Course:《High-performance computer architecture》,《Neural networks, fuzzy systems and genetic algorithms》,《Computer programming for product development and applications》
+      - Course:《High-performance computer architecture》,《Neural networks, fuzzy systems and genetic algorithms》,《Computer programming for product development and applications》,COMP7404《Computational intelligence and machine learning》
       - Dissertation: Large language model based multi-agent materials scientist for advanced materials design
     ],
     align(right)[
@@ -88,9 +88,9 @@
     align(left)[
       *安徽大学 （211） 计算机科学与技术英才班* \
       - GPA:3.30/4
-      - 语言:中文二级甲等、英语六级、雅思IELTS6.5
+      - 语言:中文二级甲等、英语六级、雅思IELTS6
       - 计算机编程:CCF-CSP 180
-      - 相关课程:计算机组成原理,数据结构,操作系统,计算机网络,数字图像处理,计算机体系结构,大数据技术,模式识别,最优化方法,数学建模(提高班),编译原理,国际学术论文撰写(研究生课程)
+      - 相关课程:数字图像处理,计算机体系结构,大数据技术,模式识别,最优化方法,数学建模(提高班),编译原理,国际学术论文撰写(研究生课程)
       - 荣誉奖项:学习优秀二等奖学金、安徽省大数据竞赛
     ],
     align(right)[
@@ -101,7 +101,7 @@
   #datedsubsection(
     align(left)[
       *香港大学 （QS 11)）        计算机科学* \
-      - 相关课程:《High-performance computer architecture》,《Neural networks, fuzzy systems and genetic algorithms》,《Computer programming for product development and applications》
+      - 相关课程:ELEC6036《High-performance computer architecture》,ELEC6604《Neural networks, fuzzy systems and genetic algorithms》,ELEC7082 《Artificial intelligence in finance》,COMP7404《Computational intelligence and machine learning》
       - Dissertation: Large language model based multi-agent materials scientist for advanced materials design
     ],
     align(right)[
@@ -135,18 +135,14 @@
     - 熟悉TypeScript、React、Umijs、Nextjs企业级框架,以及SSG、SSR、CSR等渲染方式
     - 熟悉Echarts、AntDesign等组件库, tinymce富文本编辑器的二次开发,使用过低代码平台做业务开发
     - 了解Linux、Nginx、Vercel、Docker、Git、CICD等流程
-    - 了解一码多端Taro、Weex、ReactNative
-    - 了解SpringBoot、Myabtis、Restful等Java技术栈,在公司用作接口开发技术
+    - 了解一码多端Taro、Weex、ReactNative;了解SpringBoot、Myabtis、Restful等Java技术栈,在公司用作接口开发技术
   - *工具*:
-    - 了解Transformer和Diffusion技术, VAE,DDPM,LoRA,KVCache,知道多种注意力机制;了解Langchain,Huggingface,Llamafactory生态
-    - 熟悉前端工程化、Serverless、Sass、Babel、Webpack、Vite、Npm、Grunt等有学习使用
-    - 熟悉阿里Clam工程体系、Def api、函数监控Ali Node、网关监控Sunfire、阿里EagleEye以及全链路工程体系排查
-    - 熟悉Node服务、BFF开发运维、前端工程化建设、服务监控、性能调优、问题诊断, 熟悉MidWaysJS、NestJs框架
-    - 熟悉浏览器渲染进程以及V8线程
-    - 熟悉MySql、SqlSever等数据库以及TypeOrm等ORM框架
-    - 熟悉RestApi、GraphQL、gRPC等请求库
-    - 了解Scrapy框架, 使用过Django框架开发游戏对战系统
-    - 了解《机器学习》、《模式识别》、《高性能计算机体系结构》,对深度学习以及遗传相关算法比较熟悉
+    - 了解Transformer和Diffusion技术, 了解VAE,DDPM,LoRA,KVCache;了解Langchain,Huggingface,Llamafactory生态
+    - 熟悉前端工程化、Serverless、Sass、Babel、Webpack、Vite、Npm、Grunt等工具
+    - 熟悉阿里Clam工程体系,包括但不限于Def api、函数监控Ali Node、网关监控Sunfire、阿里EagleEye以及全链路工程体系排查
+    - 熟悉Node服务、BFF开发运维、前端工程化建设、服务监控、性能调优、问题诊断, 熟悉MidWaysJS、NestJs框架；熟悉浏览器渲染进程以及V8线程
+    - 熟悉MySql、SqlSever等数据库以及TypeOrm等ORM框架；熟悉RestApi、GraphQL、gRPC等请求库
+    - 了解大模型LLM基础,包括Transformer和Diffusion技术,做过模型微调、LoRA、KV cache、VAE、DDPM,知道多种注意力机制,了解HuggingFace和Llamafactory生态,使用Langchain接入RAG,以及Langchain做数据分析Agent
 ]
 
 #let projecttitle = [ Project Experience ]
@@ -191,17 +187,13 @@
   #datedsubsection(
     align(left)[
       *阿里巴巴·浙江飞猪网络技术有限公司* \
-      交通线·大前端
+      交通线·大前端 【全职】
     ],
     align(right)[
       2023.9 - 2024.3 \
       #emph(text("前端开发工程师"))
     ]
   )
-  - 大模型LLM基础
-    - 了解Transformer和Diffusion技术,做过模型微调、LoRA、KV cache、VAE、DDPM,知道多种注意力机制;
-    - 了解HuggingFace和Llamafactory生态
-    - 使用Langchain接入RAG,以及Langchain做数据分析Agent
   - 开发风控中后台系统“水母Jellyfish”开发
     - 使用MidwayJS+Serverless搭建项目,系统作为IP反爬系统涉及规则接入、规则部署、异常监测和风控策略,项目包括了数据展示、报警接入以及埋点接入
   - 开发政策文件解析工具
@@ -215,15 +207,13 @@
     - 部分页面使用低代码平台开发
   - 开发react生成页面器
     - 针对机票运营中后台中存在大量布局页面，开发了页面生成器脚本，在运营中后台项目中提升开发效率50%，减少重复开发时间
-  - 开发性能测试工具
-    - 针对运营中后台项目,使用puppeteer开发了性能测试脚本,针对具体操作链路可以快速获取页面性能数据
   ===========================
   ===========================
 
   #datedsubsection(
     align(left)[
-      *招商银行招银网络科技(深圳)有限公司* \
-      基础设施研发中心
+      *招商银行招银网络科技(深圳)* \
+      基础设施研发中心 【全职】
 
     ],
     align(right)[
@@ -233,7 +223,20 @@
   )
 
   - 校招入职后参与公司的云运维平台开发(DevOps),平台中的OracleDM平台开发（银行对Oracle数据库做操作的平台）主要是担任前端开发工程师,使用React17、TypeScript、AntDesign做网页开发以及接口对接
-  - 使用SpringBoot技术做接口开发
+
+  #datedsubsection(
+    align(left)[
+      *Bybit* \
+      UJ growth 【实习】
+
+    ],
+    align(right)[
+      2025.10 - 2026.5 \
+      #emph(text("软件开发工程师"))
+    ]
+  )
+  - 负责 Bybit 官网首页开发，使用 Next.js 14 实现 60+语言国际化、多地区合规站点差异化渲染、实时行情数据展示，通过性能优化使首屏 LCP < 2.5s，支撑日均百万级 PV
+  - 参与 Bybit 增长营销平台设计和开发，参与创建了 28 个独立应用的 Monorepo 架构（65 万行代码）；构建 14个共享库（base-ui 47 个组件、gmp-lib 271 个组件）；设计实现了动态页面构建器、30语言国际化系统和数据追踪系统；通过 17 个自动化脚本和完整工程化流程，提升开发效率 40%+
 ]
 
 #let activitytitle = [ Research Experience ]
