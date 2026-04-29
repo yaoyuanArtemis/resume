@@ -1,9 +1,9 @@
 // You may need to change this settings
-#let sansen = "KpSans"
-#let sanszh = "Source Han Sans SC"
-#let serifen = "KpRoman"
-#let serifzh = "Source Han Serif SC"
-#let emj = "Segoe UI Emoji"
+#let sansen = "Arial"
+#let sanszh = "Heiti SC"
+#let serifen = "Baskerville"
+#let serifzh = "Heiti SC"
+#let emj = "Apple Color Emoji"
 
 #let info = author => align(left)[
   #author.email \
@@ -56,6 +56,7 @@
     // ]
   ]
   set par(justify: true)
+  set list(marker: ([•], [–], [◦]))
   body
 }
 
@@ -96,6 +97,7 @@
 #let datedsubsection(term, data) = {
   grid(
     columns: (1fr, auto),
+    column-gutter: 1.5em,
     align(left)[ #term ],
     align(right)[ #data ],
   )

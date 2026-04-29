@@ -48,10 +48,10 @@
 #let selftitle = [ Self Introduction ]
 #let selftitlezh = [ 自我总结 ]
 #let self = [
-  I am passionate about pursuing technological advancements and have an unrelenting pursuit of knowledge, particularly in the field of computer science. Additionally, I enjoy meeting interesting people and experiencing diverse aspects of society. Whether it's the culture and phenomena in China or around the world, I am full of curiosity and eager to explore.I used to work on full-stack development with Node.js, but with the rise of the AI wave, I started learning LLM-related technologies on my own and plan to shift my career toward AI.
+  I am passionate about technological progress and have an unrelenting pursuit of knowledge, particularly in computer science. I enjoy meeting interesting people and exploring diverse facets of society, staying curious about cultures and phenomena across the world. Outside of work, I am an avid soccer fan (Real Madrid) and enjoy hiking and skiing. I previously worked on full-stack development with Node.js, but with the rise of AI, I have been self-learning LLM-related technologies and plan to transition my career toward AI.
 ]
 #let selfzh = [
-  我热衷于追求技术进步,对知识有着不懈的追求,尤其是在计算机领域。同时,我也乐于在社会中结识有趣的人和事,深入了解社会的各个方面。无论是中国还是世界各地的文化和现象,我都充满好奇并渴望探索。
+  我热衷技术，求知若渴，尤专注计算机领域。乐于结识有趣之人与事，洞察社会百态。对中国乃至世界各地的文化现象充满好奇，探索不息。工作之余热衷足球，喜爱户外徒步与滑雪。
 ]
 
 #let edutitle = [ Education ]
@@ -73,7 +73,7 @@
   ),
   #datedsubsection(
     align(left)[
-      *Hongkong University （QS 11)）        Computer Sciencef and technology* \
+      *Hongkong University （QS 11）        Computer Science and technology* \
       - Course:《High-performance computer architecture》,《Neural networks, fuzzy systems and genetic algorithms》,《Computer programming for product development and applications》,COMP7404《Computational intelligence and machine learning》
       - Dissertation: Large language model based multi-agent materials scientist for advanced materials design
     ],
@@ -88,24 +88,24 @@
     align(left)[
       *安徽大学 （211） 计算机科学与技术英才班* \
       - GPA:3.30/4
-      - 语言:中文二级甲等、英语六级、雅思IELTS6
+      - 语言:英语六级、雅思IELTS6.5
       - 计算机编程:CCF-CSP 180
-      - 相关课程:数字图像处理,计算机体系结构,大数据技术,模式识别,最优化方法,数学建模(提高班),编译原理,国际学术论文撰写(研究生课程)
+      - 课程:数字图像处理,计算机体系结构,大数据技术,模式识别,最优化方法,数学建模(提高班),编译原理,国际学术论文撰写
       - 荣誉奖项:学习优秀二等奖学金、安徽省大数据竞赛
     ],
     align(right)[
-      合肥·中国 \
+      🇨🇳合肥 \
       2017.9 - 2021.6
     ]
   )
   #datedsubsection(
     align(left)[
-      *香港大学 （QS 11)）        计算机科学* \
-      - 相关课程:ELEC6036《High-performance computer architecture》,ELEC6604《Neural networks, fuzzy systems and genetic algorithms》,ELEC7082 《Artificial intelligence in finance》,COMP7404《Computational intelligence and machine learning》
-      - Dissertation: Large language model based multi-agent materials scientist for advanced materials design
+      *香港大学 （QS 11）        计算机科学* \
+      - 课程:《High-performance computer architecture》,《Neural networks, fuzzy systems and genetic algorithms》,《Artificial intelligence in finance》,《Computational intelligence and machine learning》
+      - 硕士Dissertation: 《Large language model based multi-agent materials scientist for advanced materials design》
     ],
     align(right)[
-      香港·中国 \
+      🇭🇰香港 \
       2025.9 - 2026.9
     ]
   )
@@ -115,23 +115,22 @@
 #let techtitlezh = [ 项目技能 ]
 #let tech = [
   - *Programming*: 
-    - Proficient in Python and C++, which were the primary languages used for university coursework.
-    - Learned and used Java, MATLAB, HTML, LaTeX, and Typst.
-    - Familiar with HTML5, CSS, JavaScript, and TypeScript, and frequently used in practical work.
-    - Experienced with Node.js, Midway.js, and familiar with Egg.js and Nest.js for full-stack development.
-    - Used Spring Boot, MyBatis, and Restful technologies for API development in a company context.
-  - *Key words*: Node.js TypeScript Nest.js HTML5 CSS
+    - Proficient in Python, TypeScript, JavaScript; experience with C++, Java, Matlab, HTML, LaTeX, Typst, Rust.
+    - Skilled in React, UmiJS, Next.js, and SSG/SSR/CSR rendering.
+    - Experienced with ECharts, Ant Design, TinyMCE customization, and low-code platforms.
+    - Knowledge of Linux, Nginx, Docker, Git, CI/CD.
+    - Familiar with Taro, React Native, Weex; basic SpringBoot, MyBatis, RESTful API development.
   - *Tools*: 
-    - Familiar with Transformer and Diffusion technologies, VAE, DDPM, LoRA, KV Cache, and various attention mechanisms; also knowledgeable about the LangChain, Hugging Face, and LLaMA-Factory ecosystems.
-    - Experienced in front-end engineering, including Serverless, Sass, Babel, Webpack, Vite, Npm, Grunt.
-    - Familiar with browser rendering process and V8
-    - Experienced with MySQL, SQL Server databases, and ORM frameworks such as TypeOrm.
-    - Familiar with RestApi, GraphQL, gRPC request libraries.
-    - Understanding of Machine Learning﻿, Pattern Recognition﻿, and High Performance Computer Architecture﻿; relatively familiar with deep learning and genetic algorithms.
+    - Knowledgeable in Transformer, Diffusion, VAE, DDPM, LoRA, KV Cache; familiar with LangChain, Hugging Face, Llamafactory.
+    - Proficient in front-end engineering, Serverless, Sass, Babel, Webpack, Vite, NPM, Grunt.
+    - Experienced in Alibaba Clam system: Def API, Ali Node, Sunfire, EagleEye, end-to-end troubleshooting.
+    - Skilled in Node.js / BFF development, monitoring, performance tuning; proficient in MidwayJS, NestJS; understand browser rendering & V8 engine.
+    - Experienced in MySQL, SQL Server, TypeORM; familiar with RestAPI, GraphQL, gRPC.
+    - Hands-on LLM experience: fine-tuning, LoRA, KV Cache, attention mechanisms; built RAG & data analysis agents with LangChain.
 ]
 #let techzh = [
   - *编程语言*: 
-    - 语言Python、TypeScript、JavaScript较为熟悉,C++,Java、Matlab、Html、Latex、Typst、Rust学习并使用过
+    - Python、TypeScript、JavaScript、C++、Java、Matlab、Html、Latex、Typst、Rust
     - 熟悉TypeScript、React、Umijs、Nextjs企业级框架,以及SSG、SSR、CSR等渲染方式
     - 熟悉Echarts、AntDesign等组件库, tinymce富文本编辑器的二次开发,使用过低代码平台做业务开发
     - 了解Linux、Nginx、Vercel、Docker、Git、CICD等流程
@@ -148,6 +147,19 @@
 #let projecttitle = [ Project Experience ]
 #let projecttitlezh = [ 项目经历 ]
 #let projectexperience = [
+
+  #datedsubsection(
+    align(left)[
+      *Bybit* \
+      Developer(Intern)
+    ],
+    align(right)[
+      2025.10 - 2026.5
+    ]
+  )
+
+  - Developed Bybit’s official homepage with Next.js 14, supporting 60+ languages, regional compliance rendering, and real-time market data, achieving LCP < 2.5s for millions of daily PV.
+  - Built a 28-app monorepo (650k+ LOC) and 14 shared libraries for Bybit’s growth platform; delivered dynamic page builder, 30-language i18n, and data tracking system, boosting efficiency by 40%.
 
   #datedsubsection(
     align(left)[
@@ -180,54 +192,14 @@
   )
 
   - After joining the company through campus recruitment, I participated in the development of the cloud operations platform, specifically the OracleDM platform (a platform for operating Oracle databases). I primarily served as a frontend developer, using React 17, TypeScript, and Ant Design for web development and API data acquisition.
-  - #lorem(8)
+
 ]
 #let projectexperiencezh = [
 
   #datedsubsection(
     align(left)[
-      *阿里巴巴·浙江飞猪网络技术有限公司* \
-      交通线·大前端 【全职】
-    ],
-    align(right)[
-      2023.9 - 2024.3 \
-      #emph(text("前端开发工程师"))
-    ]
-  )
-  - 开发风控中后台系统“水母Jellyfish”开发
-    - 使用MidwayJS+Serverless搭建项目,系统作为IP反爬系统涉及规则接入、规则部署、异常监测和风控策略,项目包括了数据展示、报警接入以及埋点接入
-  - 开发政策文件解析工具
-    - 使用React+Dom操作
-    - 针对航司政策解析Excel投产,累计至2月,航司覆盖率已达10个,自动化率达到75%
-    - 政策文件类型支持Word2007、Word2003、Excel2007、Excel2003
-    - 通过建设航司政策文件自动解析能力,提高运营投放工作效率,运营解析复杂政策文件的工作时间由一天缩短至2小时内
-    - 自动化之外添加了手动划取功能，提升工具健壮性
-  - 开发机票运营中后台
-    - 技术栈为前后端分离UmiJs,涉及AoneFlow敏捷开发,buc权限接入,页面开发
-    - 部分页面使用低代码平台开发
-  - 开发react生成页面器
-    - 针对机票运营中后台中存在大量布局页面，开发了页面生成器脚本，在运营中后台项目中提升开发效率50%，减少重复开发时间
-  ===========================
-  ===========================
-
-  #datedsubsection(
-    align(left)[
-      *招商银行招银网络科技(深圳)* \
-      基础设施研发中心 【全职】
-
-    ],
-    align(right)[
-      2021.7 - 2023.9 \
-      #emph(text("软件开发工程师"))
-    ]
-  )
-
-  - 校招入职后参与公司的云运维平台开发(DevOps),平台中的OracleDM平台开发（银行对Oracle数据库做操作的平台）主要是担任前端开发工程师,使用React17、TypeScript、AntDesign做网页开发以及接口对接
-
-  #datedsubsection(
-    align(left)[
       *Bybit* \
-      UJ growth 【实习】
+      【实习】UJ growth
 
     ],
     align(right)[
@@ -237,19 +209,73 @@
   )
   - 负责 Bybit 官网首页开发，使用 Next.js 14 实现 60+语言国际化、多地区合规站点差异化渲染、实时行情数据展示，通过性能优化使首屏 LCP < 2.5s，支撑日均百万级 PV
   - 参与 Bybit 增长营销平台设计和开发，参与创建了 28 个独立应用的 Monorepo 架构（65 万行代码）；构建 14个共享库（base-ui 47 个组件、gmp-lib 271 个组件）；设计实现了动态页面构建器、30语言国际化系统和数据追踪系统；通过 17 个自动化脚本和完整工程化流程，提升开发效率 40%+
+
+  #datedsubsection(
+    align(left)[
+      *阿里巴巴·浙江飞猪网络技术有限公司* \
+      【全职】交通线·大前端
+    ],
+    align(right)[
+      2023.9 - 2024.3 \
+      #emph(text("前端开发工程师"))
+    ]
+  )
+  - 开发风控中后台系统“水母Jellyfish”开发
+    - 使用MidwayJS+Serverless搭建项目,系统作为IP反爬系统涉及规则接入、规则部署、异常监测和风控策略,项目包括了数据展示、报警接入以及埋点接入
+  - 开发政策文件解析工具
+    - 针对航司政策解析Excel投产,累计至2月,航司覆盖率已达10个,自动化率达到75%
+    - 政策文件类型支持Word2007、Word2003、Excel2007、Excel2003
+    - 通过建设航司政策文件自动解析能力,提高运营投放工作效率,运营解析复杂政策文件的工作时间由一天缩短至2小时内
+    - 自动化之外添加了手动划取功能，提升工具健壮性
+  - 开发机票运营中后台
+    - 技术栈为前后端分离UmiJs,涉及AoneFlow敏捷开发,buc权限接入,页面开发
+    - 部分页面使用低代码平台开发
+  // - 开发react生成页面器
+  //   - 针对机票运营中后台中存在大量布局页面，开发了页面生成器脚本，在运营中后台项目中提升开发效率50%，减少重复开发时间
+
+  #datedsubsection(
+    align(left)[
+      *招商银行招银网络科技(深圳)* \
+      【全职】基础设施研发中心
+
+    ],
+    align(right)[
+      2021.7 - 2023.9 \
+      #emph(text("软件开发工程师"))
+    ]
+  )
+
+  - 校招入职后参与公司的云运维平台开发(DevOps),平台中的OracleDM平台开发（银行对Oracle数据库做操作的平台）主要是担任前端开发工程师,使用React17、TypeScript、AntDesign做网页开发以及接口对接
+  
 ]
 
 #let activitytitle = [ Research Experience ]
 #let activitytitlezh = [ 科研经历 ]
 #let activityzh = [
+
+  #datedsubsection(
+    align(left)[
+      *面向材料表征的视觉语言模型微调与强化学习* \
+      本项目为硕士毕业论文《Large Language Model Based Multi-Agent Materials Scientist for Advanced Materials Design》的核心研究内容。\
+      - 基于 Qwen2.5-VL-7B-Instruct构建了完整的材料科学视觉语言模型训练pipeline，在单卡 RTX 4090 (24GB)上完成 SFT + RLHF 两阶段训练                                           
+      - 构建 25,263 条高分辨率材料显微图像数据集（来源 OmniScience），使用LLaMA-Factory 框架完成 LoRA 微调（rank=8, BF16, FlashAttention-2, paged AdamW 8-bit），训练 loss 降至 0.1762
+      - 针对 SFT 阶段出现的灾难性遗忘问题，设计了包含 6 个物理感知维度的自定义奖励函数（晶面指数匹配、缺陷术语覆盖、物理定律一致性等），基于ms-swift 框架采用 GRPO 算法完成强化学习        
+      - RLHF 后模型缺陷识别准确率达 94.3%，图表分析能力恢复至81.9%，物理定律违反率降至8%                                         
+      - 全部代码、模型权重、数据集已开源：#link("https://github.com/yaoyuanArtemis/Physics-VLM-SFT-RLHF-Pipeline")[#underline[GitHub]] · #link("https://huggingface.co/yaoyuanlf")[#underline[HuggingFace Models]]
+    ],
+    align(right)[
+      #emph[#text(font: "Apple Color Emoji", size: 10pt)[🇭🇰] 香港] \
+      2025.10-2026.05
+    ]
+  )
   #datedsubsection(
     align(left)[
       *属性网络社团检测* \
-      ===
-      本科期间发表学术论文 A Reduced Mixed Representation Based Multi-Objective Evolutionary Algorithm for Large-Scale Overlapping Community Detection DOI: 10.1109/CEC45853.2021.9504894 属于安徽大学教育部计算智能与信息处理重点实验室成果
+      本科期间发表学术论文《A Reduced Mixed Representation Based Multi-Objective Evolutionary Algorithm for Large-Scale Overlapping Community Detection》（DOI: 10.1109/CEC45853.2021.9504894），成果出自安徽大学计算智能与信息处理教育部重点实验室
     ],
     align(right)[
-      2019-2021
+      #emph("🇨🇳合肥") \
+      2019.02-2021.03
     ]
   )
 
@@ -264,30 +290,33 @@
   // )
 
   // #lorem(16)
-
-  // #datedsubsection(
-  //   align(left)[
-  //     *#lorem(8)* \
-  //     #lorem(4)
-  //   ],
-  //   align(right)[
-  //     202x
-  //   ]
-  // )
-
-  // - #lorem(8)
-  // - #lorem(8)
 ]
 #let activity = [
   #datedsubsection(
     align(left)[
-      *Attribute-Based Network Community Detection* \
-      Published Academic Papers During Undergraduate Studies: 
-      A Reduced Mixed Representation Based Multi-Objective Evolutionary Algorithm for Large-Scale Overlapping Community Detection DOI: 10.1109/CEC45853.2021.9504894.
-      
-      Achievement of the Key Laboratory of Computational Intelligence and Information Processing, Ministry of Education, Anhui University
+      *Vision-Language Model Fine-Tuning and Reinforcement Learning for Materials Characterization* \
+      This project forms the core research of my master's dissertation《Large Language Model Based Multi-Agent Materials Scientist for Advanced Materials Design》.\
+      - Built a complete materials science VLM training pipeline based on Qwen2.5-VL-7B-Instruct, completing SFT + RLHF two-stage training on a single RTX 4090 (24GB)
+      - Constructed a dataset of 25,263 high-resolution material microscopy images (sourced from OmniScience), using LLaMA-Factory for LoRA fine-tuning (rank=8, BF16, FlashAttention-2, paged AdamW 8-bit); training loss reduced to 0.1762
+      - Designed a custom reward function with 6 physics-aware dimensions (crystal plane index matching, defect terminology coverage, physical law consistency, etc.) to address catastrophic forgetting during SFT; completed RL using GRPO algorithm via ms-swift
+      - Post-RLHF: defect recognition accuracy reached 94.3%, chart analysis capability recovered to 81.9%, physical law violation rate reduced to 8%
+      - All code, model weights, and datasets are open-sourced: #link("https://github.com/yaoyuanArtemis/Physics-VLM-SFT-RLHF-Pipeline")[#underline[GitHub]] · #link("https://huggingface.co/yaoyuanlf")[#underline[HuggingFace Models]]
     ],
     align(right)[
+      #emph[Hong Kong#text(font: "Apple Color Emoji", size: 10pt)[🇭🇰]] \
+      2025.10-2026.05
+    ]
+  )
+
+  #v(0.8em)
+
+  #datedsubsection(
+    align(left)[
+      *Multi-Objective Complex Attribute Network Community Detection* \
+      Published a paper during undergraduate studies: 《A Reduced Mixed Representation Based Multi-Objective Evolutionary Algorithm for Large-Scale Overlapping Community Detection》（DOI: 10.1109/CEC45853.2021.9504894）. This work was conducted at the Key Laboratory of Computational Intelligence and Information Processing, Ministry of Education, Anhui University.
+    ],
+    align(right)[
+      #emph[Hefei #text(font: "Apple Color Emoji", size: 10pt)[🇨🇳]] \
       2019-2021
     ]
   )
@@ -296,8 +325,8 @@
 #let hobbiestitle = [ Hobbies and Interests ]
 #let hobbiestitlezh = [ 兴趣爱好 ]
 #let hobbieszh = [
-  - *文化*: 喜欢了解学习地理、世界史和中国史、宏观经济
-  - *运动*: 喜欢踢足球,主队皇马；户外锻炼,游泳,滑雪也有不定期进行
+  - *文化*: 关注地理、中外历史与宏观经济，对世界格局变迁与文明脉络有浓厚兴趣
+  - *运动*: 热衷足球（支持皇马），不定期参与户外徒步、游泳与滑雪
 ]
 #let hobbies = [
   - *Culture*: Enjoys Learning About Geography, World History, Chinese History, and Macroeconomics

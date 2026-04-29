@@ -14,7 +14,6 @@
 
 #eduzh
 
-
 #section[ #titleemj("telescope.svg") #projecttitlezh ]
 
 #projectexperiencezh
@@ -27,6 +26,6 @@
 
 #activityzh
 
-#section[ #titleemj("football.svg") #hobbiestitlezh ]
-
-#hobbieszh
+// #section[ #titleemj("football.svg") #hobbiestitlezh ]
+//
+// #hobbieszh
