@@ -6,26 +6,26 @@
   author: authorzh,
 )
 
-#section[ #titleemj("curl.svg") #selftitlezh ]
+#section[ #titleemj("icons/curl.svg") #selftitlezh ]
 
 #selfzh
 
-#section[ #titleemj("mortarboard.svg") #edutitlezh ]
+#section[ #titleemj("icons/mortarboard.svg") #edutitlezh ]
 
 #eduzh
 
-#section[ #titleemj("telescope.svg") #projecttitlezh ]
+#section[ #titleemj("icons/telescope.svg") #projecttitlezh ]
 
 #projectexperiencezh
 
-#section[ #titleemj("seedling.svg") #techtitlezh ]
+#section[ #titleemj("icons/seedling.svg") #techtitlezh ]
 
 #techzh
 
-#section[ #titleemj("darts.svg") #activitytitlezh ]
+#section[ #titleemj("icons/darts.svg") #activitytitlezh ]
 
 #activityzh
 
-// #section[ #titleemj("football.svg") #hobbiestitlezh ]
+// #section[ #titleemj("icons/football.svg") #hobbiestitlezh ]
 //
 // #hobbieszh

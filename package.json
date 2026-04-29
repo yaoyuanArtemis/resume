@@ -1,5 +1,13 @@
 {
-  "dependencies": {
-    "typst": "^0.10.0-8"
+  "name": "typst-cv-miku",
+  "private": true,
+  "description": "CV built with Typst",
+  "scripts": {
+    "build:zh": "typst compile cv_1-zh.typ cv_1-zh.pdf",
+    "build:en": "typst compile cv_1.typ cv_1.pdf",
+    "build": "npm run build:zh && npm run build:en"
+  },
+  "devDependencies": {
+    "typst": "^0.13.1"
   }
 }

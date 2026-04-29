@@ -3,26 +3,26 @@
 #let name = "Liu Feng"
 #let namezh = "刘峰"
 #let email = [
-  #icon("email.svg") yaoyuan.lf\@gmail.com
+  #icon("icons/email.svg") yaoyuan.lf\@gmail.com
 ]
 #let phone = [
-  #icon("phone.svg")
+  #icon("icons/phone.svg")
   (+86) 18520170194 / (+852)56174084
 ]
 #let home = [
-  #icon("home.svg")
+  #icon("icons/home.svg")
   #link("https://yaoyuanartemis.github.io/")[ yaoyuanartemis.github.io ]
 ]
 #let github = [
-  #icon("github.svg")
+  #icon("icons/github.svg")
   #link("https://github.com/yaoyuanArtemis")[ yaoyuanArtemis ]
 ]
 #let linkin = [
-  #icon("linkedin.svg")
+  #icon("icons/linkedin.svg")
   #link("https://www.linkedin.com/in/%E5%B3%B0-%E5%88%98-2a7a8b2b8/")[ Liu Feng ]
 ]
 #let vercel = [
-  #icon("vercel.svg")
+  #icon("icons/vercel.svg")
   #link("https://learning-nextjs-iota-flax.vercel.app")[ vercel ]
 ]
 
