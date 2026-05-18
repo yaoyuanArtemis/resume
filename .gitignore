@@ -57,4 +57,6 @@ node_modules/
 # End of https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode
 
 *.pdf
+!cv_1-zh.pdf
+!cv_1.pdf
 *.jpg

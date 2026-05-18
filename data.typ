@@ -102,7 +102,7 @@
     align(left)[
       *香港大学 （QS 11）        计算机科学* \
       - 课程:《High-performance computer architecture》,《Neural networks, fuzzy systems and genetic algorithms》,《Artificial intelligence in finance》,《Computational intelligence and machine learning》
-      - 硕士Dissertation: 《Large language model based multi-agent materials scientist for advanced materials design》
+      - Dissertation: 《Large language model based multi-agent materials scientist for advanced materials design》
     ],
     align(right)[
       🇭🇰香港 \
@@ -131,17 +131,17 @@
 #let techzh = [
   - *编程语言*: 
     - Python、TypeScript、JavaScript、C++、Java、Matlab、Html、Latex、Typst、Rust
-    - 熟悉TypeScript、React、Umijs、Nextjs企业级框架,以及SSG、SSR、CSR等渲染方式
-    - 熟悉Echarts、AntDesign等组件库, tinymce富文本编辑器的二次开发,使用过低代码平台做业务开发
-    - 了解Linux、Nginx、Vercel、Docker、Git、CICD等流程
-    - 了解一码多端Taro、Weex、ReactNative;了解SpringBoot、Myabtis、Restful等Java技术栈,在公司用作接口开发技术
+    - TypeScript、React、Umijs、Nextjs、SSG、SSR、CSR
+    - Echarts、AntDesign, tinymce
+    - Linux、Nginx、Vercel、Docker、Git、CICD
+    - Taro、Weex、ReactNative、SpringBoot、Myabtis、Restful
   - *工具*:
-    - 了解Transformer和Diffusion技术, 了解VAE,DDPM,LoRA,KVCache;了解Langchain,Huggingface,Llamafactory生态
-    - 熟悉前端工程化、Serverless、Sass、Babel、Webpack、Vite、Npm、Grunt等工具
-    - 熟悉阿里Clam工程体系,包括但不限于Def api、函数监控Ali Node、网关监控Sunfire、阿里EagleEye以及全链路工程体系排查
-    - 熟悉Node服务、BFF开发运维、前端工程化建设、服务监控、性能调优、问题诊断, 熟悉MidWaysJS、NestJs框架；熟悉浏览器渲染进程以及V8线程
-    - 熟悉MySql、SqlSever等数据库以及TypeOrm等ORM框架；熟悉RestApi、GraphQL、gRPC等请求库
-    - 了解大模型LLM基础,包括Transformer和Diffusion技术,做过模型微调、LoRA、KV cache、VAE、DDPM,知道多种注意力机制,了解HuggingFace和Llamafactory生态,使用Langchain接入RAG,以及Langchain做数据分析Agent
+    - Transformer和Diffusion技术, VAE,DDPM,LoRA,KVCache;Langchain,Huggingface,Llamafactory生态
+    - 前端工程化、Serverless、Sass、Babel、Webpack、Vite、Npm、Grunt等工具
+    - 阿里Clam工程体系,包括但不限于Def api、函数监控Ali Node、网关监控Sunfire、阿里EagleEye以及全链路工程体系排查
+    - Node服务、BFF开发运维、前端工程化建设、服务监控、性能调优、问题诊断, MidWaysJS、NestJs框架；浏览器渲染进程以及V8线程
+    - MySql、SqlSever等数据库以及TypeOrm等ORM框架；RestApi、GraphQL、gRPC等请求库
+    - 大模型LLM基础,包括Transformer和Diffusion,模型微调、LoRA、KV cache、VAE、DDPM,HuggingFace和Llamafactory生态,Langchain接入RAG,以及Langchain做数据分析Agent
 ]
 
 #let projecttitle = [ Project Experience ]
