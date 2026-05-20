@@ -19,11 +19,15 @@
 ]
 #let linkin = [
   #icon("icons/linkedin.svg")
-  #link("https://www.linkedin.com/in/%E5%B3%B0-%E5%88%98-2a7a8b2b8/")[ Liu Feng ]
+  #link("https://www.linkedin.com/in/%E5%B3%B0-%E5%88%98-2a7a8b2b8/")[ LIU Feng ]
 ]
 #let vercel = [
   #icon("icons/vercel.svg")
   #link("https://learning-nextjs-iota-flax.vercel.app")[ vercel ]
+]
+#let height = [
+  #icon("icons/myinfo.svg")
+  185cm
 ]
 
 #let author = (
@@ -33,7 +37,8 @@
   home: home,
   github: github,
   linkin: linkin,
-  vercel:vercel
+  vercel:vercel,
+  height: height
 )
 #let authorzh = (
   name: namezh,
@@ -42,7 +47,8 @@
   home: home,
   github: github,
   linkin: linkin,
-  vercel:vercel
+  vercel:vercel,
+  height: height
 )
 
 #let selftitle = [ Self Introduction ]

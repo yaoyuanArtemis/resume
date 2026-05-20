@@ -6,7 +6,7 @@
 #let emj = "Apple Color Emoji"
 
 #let info = author => align(left)[
-  #author.email \
+  #author.email · #author.height \
   #author.phone \
   #author.home · #author.github · #author.linkin · #author.vercel
 ]
