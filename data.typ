@@ -142,12 +142,11 @@
     - Linux、Nginx、Vercel、Docker、Git、CICD
     - Taro、Weex、ReactNative、SpringBoot、Myabtis、Restful
   - *工具*:
-    - Transformer和Diffusion技术, VAE,DDPM,LoRA,KVCache;Langchain,Huggingface,Llamafactory生态
     - 前端工程化、Serverless、Sass、Babel、Webpack、Vite、Npm、Grunt等工具
     - 阿里Clam工程体系,包括但不限于Def api、函数监控Ali Node、网关监控Sunfire、阿里EagleEye以及全链路工程体系排查
     - Node服务、BFF开发运维、前端工程化建设、服务监控、性能调优、问题诊断, MidWaysJS、NestJs框架；浏览器渲染进程以及V8线程
     - MySql、SqlSever等数据库以及TypeOrm等ORM框架；RestApi、GraphQL、gRPC等请求库
-    - 大模型LLM基础,包括Transformer和Diffusion,模型微调、LoRA、KV cache、VAE、DDPM,HuggingFace和Llamafactory生态,Langchain接入RAG,以及Langchain做数据分析Agent
+    - Transformer、Diffusion、模型微调、LoRA、KV Cache、VAE、DDPM；Hugging Face、LLaMA-Factory 生态；能基于 LangChain、LangGraph、PydanticAI、Dify 构建端到端多 Agent 系统
 ]
 
 #let projecttitle = [ Project Experience ]
