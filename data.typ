@@ -147,6 +147,7 @@
     - Node服务、BFF开发运维、前端工程化建设、服务监控、性能调优、问题诊断, MidWaysJS、NestJs框架；浏览器渲染进程以及V8线程
     - MySql、SqlSever等数据库以及TypeOrm等ORM框架；RestApi、GraphQL、gRPC等请求库
     - Transformer、Diffusion、模型微调、LoRA、KV Cache、VAE、DDPM；Hugging Face、LLaMA-Factory 生态；能基于 LangChain、LangGraph、PydanticAI、Dify 构建端到端多 Agent 系统
+    - 熟悉 Claude Code、Codex 等 AI 编程工具与上下文工程实践；了解 Harness、Skill、MCP、RAG 等 Agent 工程化与知识增强方案
 ]
 
 #let projecttitle = [ Project Experience ]
@@ -275,7 +276,7 @@
   )
   #datedsubsection(
     align(left)[
-      *属性网络社团检测* \
+      *多目标优化社团检测* \
       本科期间发表学术论文《A Reduced Mixed Representation Based Multi-Objective Evolutionary Algorithm for Large-Scale Overlapping Community Detection》（DOI: 10.1109/CEC45853.2021.9504894），成果出自安徽大学计算智能与信息处理教育部重点实验室
     ],
     align(right)[
