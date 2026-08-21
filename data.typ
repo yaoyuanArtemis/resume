@@ -54,15 +54,37 @@
 #let selftitle = [ Self Introduction ]
 #let selftitlezh = [ 自我总结 ]
 #let self = [
-  I am passionate about technological progress and have an unrelenting pursuit of knowledge, particularly in computer science. I enjoy meeting interesting people and exploring diverse facets of society, staying curious about cultures and phenomena across the world. Outside of work, I am an avid soccer fan (Real Madrid) and enjoy hiking and skiing. I previously worked on full-stack development with Node.js, but with the rise of AI, I have been self-learning LLM-related technologies and plan to transition my career toward AI.
+  I am a Ph.D. student at the School of Computer Science and Engineering, University of Electronic Science and Technology of China, jointly trained with Zhongguancun Laboratory. My research focuses on AI and computer networks. I previously worked on full-stack development with Node.js and have been actively building LLM, multi-agent, and AI engineering projects. Outside of work, I enjoy soccer, hiking, and skiing.
 ]
 #let selfzh = [
-  我热衷技术，求知若渴，尤专注计算机领域。乐于结识有趣之人与事，洞察社会百态。对中国乃至世界各地的文化现象充满好奇，探索不息。工作之余热衷足球，喜爱户外徒步与滑雪。
+  现为电子科技大学计算机科学与工程学院博士研究生，中关村实验室联合培养，研究方向为 AI 与计算机网络。具备前端、Node.js / BFF、工程化与 AI Agent 项目经验，持续关注大模型、多智能体与网络智能化方向。工作之余热衷足球，喜爱户外徒步与滑雪。
 ]
 
 #let edutitle = [ Education ]
 #let edutitlezh = [ 教育经历 ]
 #let edu = [
+  #datedsubsection(
+    align(left)[
+      *University of Electronic Science and Technology of China    School of Computer Science and Engineering* \
+      - Ph.D. student; jointly trained with Zhongguancun Laboratory
+      - Research Interests: Artificial Intelligence and Computer Networks
+    ],
+    align(right)[
+      Chengdu / Beijing, China \
+      2026.9 - Present
+    ]
+  ),
+  #datedsubsection(
+    align(left)[
+      *Hongkong University （QS 11）        Computer Science and technology* \
+      - Course:《High-performance computer architecture》,《Neural networks, fuzzy systems and genetic algorithms》,《Computer programming for product development and applications》,COMP7404《Computational intelligence and machine learning》,IDAT7213《UAV design, navigation and control》
+      - Dissertation: Large language model based multi-agent materials scientist for advanced materials design
+    ],
+    align(right)[
+      Hongkong SAR \
+      2025.9 - 2026.9
+    ]
+  ),
   #datedsubsection(
     align(left)[
       *Anhui University （211） the gifted class of computer science* \
@@ -76,20 +98,31 @@
       Hefei, China \
       2017.9 - 2021.6
     ]
-  ),
-  #datedsubsection(
-    align(left)[
-      *Hongkong University （QS 11）        Computer Science and technology* \
-      - Course:《High-performance computer architecture》,《Neural networks, fuzzy systems and genetic algorithms》,《Computer programming for product development and applications》,COMP7404《Computational intelligence and machine learning》
-      - Dissertation: Large language model based multi-agent materials scientist for advanced materials design
-    ],
-    align(right)[
-      Hongkong SAR \
-      2025.9 - 2026.9
-    ]
   )
 ]
 #let eduzh = [
+  #datedsubsection(
+    align(left)[
+      *电子科技大学  计算机科学与工程学院* \
+      - 博士研究生；中关村实验室联合培养
+      - 研究方向：AI 与计算机网络
+    ],
+    align(right)[
+      🇨🇳成都 / 北京 \
+      2026.9 - 至今
+    ]
+  )
+  #datedsubsection(
+    align(left)[
+      *香港大学 （QS 11）        计算机科学* \
+      - 课程:《High-performance computer architecture》,《Neural networks, fuzzy systems and genetic algorithms》,《Artificial intelligence in finance》,《Computational intelligence and machine learning》,IDAT7213《UAV design, navigation and control》
+      - Dissertation: 《Large language model based multi-agent materials scientist for advanced materials design》
+    ],
+    align(right)[
+      🇭🇰香港 \
+      2025.9 - 2026.9
+    ]
+  )
   #datedsubsection(
     align(left)[
       *安徽大学 （211） 计算机科学与技术英才班* \
@@ -102,17 +135,6 @@
     align(right)[
       🇨🇳合肥 \
       2017.9 - 2021.6
-    ]
-  )
-  #datedsubsection(
-    align(left)[
-      *香港大学 （QS 11）        计算机科学* \
-      - 课程:《High-performance computer architecture》,《Neural networks, fuzzy systems and genetic algorithms》,《Artificial intelligence in finance》,《Computational intelligence and machine learning》
-      - Dissertation: 《Large language model based multi-agent materials scientist for advanced materials design》
-    ],
-    align(right)[
-      🇭🇰香港 \
-      2025.9 - 2026.9
     ]
   )
 ]
@@ -215,6 +237,7 @@
   )
   - 负责 Bybit 官网首页开发，使用 Next.js 14 实现 60+语言国际化、多地区合规站点差异化渲染、实时行情数据展示，通过性能优化使首屏 LCP < 2.5s，支撑日均百万级 PV
   - 参与 Bybit 增长营销平台设计和开发，参与创建了 28 个独立应用的 Monorepo 架构（65 万行代码）；构建 14个共享库（base-ui 47 个组件、gmp-lib 271 个组件）；设计实现了动态页面构建器、30语言国际化系统和数据追踪系统；通过 17 个自动化脚本和完整工程化流程，提升开发效率 40%+
+  - AlphaNestAgent｜美股智能投研助手,基于 Python、PydanticAI、DeepSeek API、React/Vite 开发的美股投研 Agent，支持用户通过对话查询股票行情、公司基本 面、财报日历和宏观经济指标。集成 Alpha Vantage、Yahoo Finance、富途 OpenD 等数据源，实现行情数据获取、宏观指标可视化、自选股读取与股票推荐 筛选。设计并实现后端 Web API 与前端交互页面，包含 Chat、Macro、Recommendations 等模块，提升美股研究和机会跟踪效率
 
   #datedsubsection(
     align(left)[
@@ -265,8 +288,7 @@
       本项目为硕士毕业论文《Large Language Model Based Multi-Agent Materials Scientist for Advanced Materials Design》的核心研究内容。\
       - 基于 Qwen2.5-VL-7B-Instruct构建了完整的材料科学视觉语言模型训练pipeline，在单卡 RTX 4090 (24GB)上完成 SFT + RLHF 两阶段训练                                           
       - 构建 25,263 条高分辨率材料显微图像数据集（来源 OmniScience），使用LLaMA-Factory 框架完成 LoRA 微调（rank=8, BF16, FlashAttention-2, paged AdamW 8-bit），训练 loss 降至 0.1762
-      - 针对 SFT 阶段出现的灾难性遗忘问题，设计了包含 6 个物理感知维度的自定义奖励函数（晶面指数匹配、缺陷术语覆盖、物理定律一致性等），基于ms-swift 框架采用 GRPO 算法完成强化学习        
-      - RLHF 后模型缺陷识别准确率达 94.3%，图表分析能力恢复至81.9%，物理定律违反率降至8%                                         
+      - 针对 SFT 阶段出现的灾难性遗忘问题，设计了包含 6 个物理感知维度的自定义奖励函数基于ms-swift 框架采用 GRPO 算法完成强化学习                                         
       - 全部代码、模型权重、数据集已开源：#link("https://github.com/yaoyuanArtemis/Physics-VLM-SFT-RLHF-Pipeline")[#underline[GitHub]] · #link("https://huggingface.co/yaoyuanlf")[#underline[HuggingFace Models]]
     ],
     align(right)[
